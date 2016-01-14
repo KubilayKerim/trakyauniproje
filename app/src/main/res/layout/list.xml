@@ -3,6 +3,13 @@
     android:padding="16dp"
     >
 
+    <Button android:id="@+id/alertBtn" style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="ALERT"
+        android:textStyle="bold"
+        android:layout_gravity="right"
+        android:onClick="setAlarm"/>
+
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

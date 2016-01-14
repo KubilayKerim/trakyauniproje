@@ -25,12 +25,14 @@
         <item>Sağlık Fakültesi</item>
         <item>Eğitim</item>
     </string-array>
+
+
     <string-array name="itemBildirim">
         <item>10</item>
         <item>30</item>
         <item>60</item>
-        <item>"Bildirim İstemiyorum"</item>
     </string-array>
+
     <string name="title_activity_login">Giris Yap</string>
 
     <!-- Strings related to login -->
