@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TrakyaDepo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_button_text">Ayarlar</string>
+    <string name="dosyatxt">Paylaşımlarım</string>
+    <string name="Derslerimtxt">Derslerim</string>
+    <string name="Etkinliktxt">Etkinlik</string>
+    <string name="SoruCevapTxt">Soru-Cevap</string>
+    <string name="banner_alt">Trakya University</string>
+    <string name="AdıText"> Adı :</string>
+    <string name="okulNoText">Okul Numarası: :</string>
+    <string name="soyadText">Soyadı : </string>
+    <string name="emailText">E-Mail :</string>
+    <string name="fakulteText">Fakülte :</string>
+    <string name="SplashText">Trakya Dosya Paylaşım</string>
+    <string name="chcktxt">Beni Hatırla</string>
+    <string-array name="Fakulteler">
+        <item>Muhendislik</item>
+        <item>Fen-Edebiyat</item>
+        <item>İktisadi İdari Birimler</item>
+        <item>Tıp</item>
+        <item>Sağlık Fakültesi</item>
+        <item>Eğitim</item>
+    </string-array>
+    <string-array name="itemBildirim">
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string name="title_activity_login">Giris Yap</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Giris</string>
+    <string name="action_kayit">Kayit ol</string>
+
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+</resources>

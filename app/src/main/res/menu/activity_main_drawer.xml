@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Ana_akis" android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="Ana Akış" />
+        <item android:id="@+id/Etkinlik" android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Etkinlik" />
+        <item android:id="@+id/nav_slideshow" android:icon="@android:drawable/ic_menu_info_details"
+            android:title="Soru-Cevap" />
+    </group>
+
+    <item android:title="Gruplar">
+        <menu>
+            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+    <item android:title="Ayarlar">
+        <menu>
+            <item android:id="@+id/Ayarlar" android:icon="@android:drawable/ic_menu_manage"
+                android:title="Ayarlar" />
+            <item android:id="@+id/cikis" android:icon="@android:drawable/ic_menu_crop"
+                android:title="Cikis" />
+        </menu>
+    </item>
+</menu>
