@@ -1,6 +1,9 @@
 package com.example.yunus.trakyadepo;
 
+import android.app.AlarmManager;
 import android.app.AlertDialog;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,6 +32,8 @@ import com.activeandroid.query.Delete;
 import com.example.yunus.trakyadepo.Adapter.PageAdapter;
 import com.example.yunus.trakyadepo.Fragments.onefragment;
 import com.example.yunus.trakyadepo.Model.Auth;
+
+import java.util.GregorianCalendar;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -181,4 +186,17 @@ public class MainActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+    public void setAlarm(View view){
+
+        Long alertTime = new GregorianCalendar().getTimeInMillis()+5*1000;
+
+        Intent alertIntent = new Intent(this, AlertReceiver.class);
+
+        AlarmManager alarmManager = (AlarmManager)
+                getSystemService(Context.ALARM_SERVICE);
+
+                alarmManager.set(AlarmManager.RTC_WAKEUP, alertTime, PendingIntent.getBroadcast(this, 1, alertIntent, PendingIntent.FLAG_UPDATE_CURRENT));
+    }
+
 }
