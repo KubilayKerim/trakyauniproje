@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Trakyadepo.iml" filepath="$PROJECT_DIR$/Trakyadepo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/trakyauniproje.iml" filepath="$PROJECT_DIR$/trakyauniproje.iml" />
     </modules>
   </component>
 </project>
