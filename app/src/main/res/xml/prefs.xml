@@ -2,10 +2,15 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <ListPreference
         android:key="notifPref"
-        android:title="Bildirim Zamanı"
+        android:title="Bildirim Aralığı"
         android:summary="Seçeceğiniz aralıklarda bildirim alacaksınız"
         android:defaultValue="1"
         android:entries="@array/itemBildirim"
         android:entryValues="@array/itemBildirim"
         />
+
+    <CheckBoxPreference android:title="Bildirim Al"
+        android:defaultValue="true"
+        android:summary="Bildirimleri alıp almayacağınızı seçebilirsiniz."
+        android:key="applicationUpdates" />
 </PreferenceScreen>

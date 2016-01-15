@@ -12,4 +12,11 @@
         android:layout_height="fill_parent"
         android:scrollbars="none" />
 
+    <Button android:id="@+id/alertBtn" style="?android:textAppearanceSmall"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="ALERT"
+        android:textStyle="bold"
+        android:layout_gravity="right"
+        android:onClick="setAlarm"/>
+
 </LinearLayout>

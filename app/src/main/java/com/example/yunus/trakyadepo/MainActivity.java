@@ -140,7 +140,10 @@ public class MainActivity extends AppCompatActivity
                 // Launch settings activity
 
                 break;
-
+            case R.id.ALERT:
+                // Launch settings activity
+                setAlarm();
+                break;
             // more code...
         }
         return true;
@@ -187,7 +190,7 @@ public class MainActivity extends AppCompatActivity
         return true;
     }
 
-    public void setAlarm(View view){
+    public void setAlarm(){
 
         Long alertTime = new GregorianCalendar().getTimeInMillis()+5*1000;
 

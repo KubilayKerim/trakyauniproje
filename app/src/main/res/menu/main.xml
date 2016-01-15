@@ -7,4 +7,14 @@
         android:title="Ara"
         app:showAsAction="always" />
 
+    <item android:id="@+id/ALERT"
+        android:icon="@android:drawable/ic_lock_idle_alarm"
+        android:title="Ara"
+        app:showAsAction="always"
+
+
+       />
+
+
+
 </menu>
